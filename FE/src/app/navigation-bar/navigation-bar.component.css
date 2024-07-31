@@ -1,9 +1,14 @@
-button{
-  width: 100px;
-  border: none;
-  background-color: transparent;
+a {
+  color: #04009A;
+  border-bottom: 1px solid white;
 }
 
-select{
-  width: 200px;
+a:hover {
+  color: #77ACF1;
+  border-bottom: 1px solid #77ACF1;
 }
+
+nav-bar {
+  background-color: #3498db;
+}
+
