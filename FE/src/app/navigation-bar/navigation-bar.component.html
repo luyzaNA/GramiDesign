@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <mat-toolbar>
   <img src="assets/logo.png" alt="logo-image">
   <button mat-icon-button routerLink="../first-page">
@@ -19,3 +20,56 @@
     <mat-icon>event</mat-icon>  Make an Appointment
   </button>
 </mat-toolbar>
+=======
+<nav class="navbar navbar-expand-xxl navbar-light shadow-sm">
+  <div class="container-fluid">
+    <div class="navbar-brand">
+      <img src="assets/Untitled%20design%20(3).png" alt="logo" width="150" padd>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-around w-100">
+        <li class="nav-item mx-2">
+          <a class="nav-link d-flex align-items-center" href="../first-page">
+            <i class="material-icons me-1">home</i> <span>{{ 'Home' | translate }}</span>
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link d-flex align-items-center" href="../first-page">
+            <i class="material-icons me-1">volume_up</i> <span>{{ 'About us' | translate }}</span>
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link d-flex align-items-center" href="../first-page">
+            <i class="material-icons me-1">contact_phone</i> <span>Contact</span>
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link d-flex align-items-center" href="../first-page">
+            <i class="material-icons me-1">photo_library</i> <span>{{ 'Gallery' | translate }}</span>
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link d-flex align-items-center" href="../first-page">
+            <i class="material-icons me-1">architecture</i> <span>{{ 'Services' | translate }}</span>
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link d-flex align-items-center" href="../first-page">
+            <i class="material-icons me-1">event</i> <span>{{ 'Make an Appointment' | translate }}</span>
+          </a>
+        </li>
+      </ul>
+      <form class="d-flex align-items-center">
+        <select class="form-select me-2" aria-label="Language select" (change)="changeLanguage($event)">
+          <option value="en" [selected]="currentLanguage === 'en'">ENGLISH</option>
+          <option value="ro" [selected]="currentLanguage === 'ro'">ROMÂNǍ</option>
+        </select>
+      </form>
+    </div>
+  </div>
+</nav>
+>>>>>>> Stashed changes
