@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {MatToolbar, MatToolbarModule} from "@angular/material/toolbar";
 import {MatIcon} from "@angular/material/icon";
 import {TranslateService} from "@ngx-translate/core";
 import {AppTranslationModule} from "../Translator/TranslateModule";
@@ -7,9 +6,7 @@ import {AppTranslationModule} from "../Translator/TranslateModule";
 @Component({
   selector: 'app-navigation-bar',
   standalone: true,
-    imports: [
-        MatToolbar,
-        MatToolbarModule,
+    imports: [    
         MatIcon,
         AppTranslationModule],
   templateUrl: './navigation-bar.component.html',
