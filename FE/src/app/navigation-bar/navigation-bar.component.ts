@@ -6,18 +6,19 @@ import {AppTranslationModule} from "../Translator/TranslateModule";
 @Component({
   selector: 'app-navigation-bar',
   standalone: true,
-    imports: [    
+    imports: [
         MatIcon,
         AppTranslationModule],
   templateUrl: './navigation-bar.component.html',
   styleUrl: './navigation-bar.component.css'
 })
 export class NavigationBarComponent {
-    currentLanguage: string = 'en';
+    currentLanguage: string = "ro";
     constructor(private translateService: TranslateService) {
+      this.currentLanguage = this.translateService.currentLang;
     }
 
-    changeLanguage(value: any) {
+  changeLanguage(value: any) {
         const language = value.target.value;
         this.translateService
             .use(language);

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {NavigationBarComponent} from "./navigation-bar/navigation-bar.component";
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,8 @@ import {NavigationBarComponent} from "./navigation-bar/navigation-bar.component"
 })
 export class AppComponent {
   title = 'FE';
+
+  constructor(private translateService: TranslateService) {
+    this.translateService.use('ro')
+  }
 }
