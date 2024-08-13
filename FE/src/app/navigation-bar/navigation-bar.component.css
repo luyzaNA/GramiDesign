@@ -1,23 +1,22 @@
 a {
-  color: #04009A;
+  color: var(--primary-color);
   border-bottom: 1px solid white;
 }
 a:hover {
-  color: #77ACF1;
-  border-bottom: 1px solid #77ACF1;
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 form {
   width: 200px;
 }
 select{
-  color: #04009A;
+  color: var(--primary-color);
   border: rgba(4, 0, 154, 0.34) solid 1px;
 }
 
 button{
-  color: #04009A;
-  border: rgba(4, 0, 154, 0.34) solid 1px;
+  color: var(--primary-color);
 }
 
 
