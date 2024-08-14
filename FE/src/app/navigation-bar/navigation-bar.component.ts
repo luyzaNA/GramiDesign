@@ -2,13 +2,16 @@ import { Component } from '@angular/core';
 import {MatIcon} from "@angular/material/icon";
 import {TranslateService} from "@ngx-translate/core";
 import {AppTranslationModule} from "../Translator/TranslateModule";
+import {NgOptimizedImage} from "@angular/common";
 
 @Component({
   selector: 'app-navigation-bar',
   standalone: true,
-    imports: [
-        MatIcon,
-        AppTranslationModule],
+  imports: [
+    MatIcon,
+    AppTranslationModule,
+    NgOptimizedImage
+  ],
   templateUrl: './navigation-bar.component.html',
   styleUrl: './navigation-bar.component.css'
 })

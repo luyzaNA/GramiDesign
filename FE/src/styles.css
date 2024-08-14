@@ -9,3 +9,21 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 /*body{*/
 /*  background-color: #283964;*/
 /*}*/
+
+:root{
+  --primary-color: #04009A;
+  --secondary-color: #77ACF1;
+}
+
+.primary-bg{
+  background-color: var(--primary-color);
+}
+.primary-color{
+  color: var(--primary-color);
+}
+.secondary-color{
+  color: var(--secondary-color);
+}
+.secondary-bg{
+  background-color: var(--secondary-color);
+}
