@@ -1,16 +1,17 @@
-<div class="shadow-sm sticky-top bg-white">
-  <div class="container-xl ">
+<div class="sticky-top bg-white">
+  <div class="container-xl">
     <nav class="navbar navbar-expand-xxl navbar-light">
       <div class="container-fluid">
         <div class="navbar-brand">
-          <img ngSrc="assets/logo76px.png" alt="logo" width="76" padd height="54">
+          <img priority ngSrc="assets/logo.png" alt="logo" width="154" height="112">
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-start w-100">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-start w-75">
             <li class="nav-item ms-3 ms-xl-5">
               <a class="nav-link d-flex align-items-center" href="../first-page">
                 <i class="material-icons me-1">home</i> <span>{{ 'Home' | translate }}</span>
@@ -23,31 +24,25 @@
             </li>
             <li class="nav-item mx-3">
               <a class="nav-link d-flex align-items-center" href="../first-page">
+                <i class="material-icons me-1">photo_library</i>
+                <span>{{ 'Gallery' | translate }}</span>
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link d-flex align-items-center" href="../first-page">
+                <i class="material-icons me-1">architecture</i>
+                <span>{{ 'Services' | translate }}</span>
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link d-flex align-items-center" href="../first-page">
                 <i class="material-icons me-1">contact_phone</i> <span>Contact</span>
               </a>
             </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link d-flex align-items-center" href="../first-page">
-                <i class="material-icons me-1">photo_library</i> <span>{{ 'Gallery' | translate }}</span>
-              </a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link d-flex align-items-center" href="../first-page">
-                <i class="material-icons me-1">architecture</i> <span>{{ 'Services' | translate }}</span>
-              </a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link d-flex align-items-center" href="../first-page">
-                <i class="material-icons me-1">event</i> <span>{{ 'Make an Appointment' | translate }}</span>
-              </a>
-            </li>
           </ul>
-          <form class="d-flex align-items-center">
-            <select class="form-select me-2" aria-label="Language select" (change)="changeLanguage($event)">
-              <option value="en" [selected]="currentLanguage === 'en'">🇺🇸 ENGLISH</option>
-              <option value="ro" [selected]="currentLanguage === 'ro'">🇷🇴 ROMÂNǍ</option>
-            </select>
-          </form>
+          <div class="d-flex align-items-center">
+            <button class="btn btn-outline-primary me-3" type="button">{{ 'Contact us' | translate }}</button>
+          </div>
         </div>
       </div>
     </nav>

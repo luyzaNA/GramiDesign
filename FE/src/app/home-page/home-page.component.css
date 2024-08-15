@@ -1,0 +1,24 @@
+span {
+  font-size: 28px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+p span {
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+mat-progress-bar {
+  background-color: var(--secondary-color);
+  color: #04009A;
+}
+
+.mat-mdc-progress-bar {
+  --mdc-linear-progress-active-indicator-color: var(--primary-color);
+  --mdc-linear-progress-track-color: var(--secondary-color);
+  --mdc-linear-progress-track-height: 15px;
+  --mdc-linear-progress-active-indicator-height: 15px;
+  border-radius: 8px;
+}

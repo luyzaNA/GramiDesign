@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import "assets/animations.css";
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 /*mat-icon{*/
@@ -26,4 +26,50 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 .secondary-bg{
   background-color: var(--secondary-color);
+}
+
+span {
+  font-size: 12px;
+}
+
+i {
+  font-size: 20px;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #04009A;
+  --bs-btn-border-color: #04009A;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #04009A;
+  --bs-btn-hover-border-color: #04009A;
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #04009A;
+  --bs-btn-active-border-color: #04009A;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #04009A;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #04009A;
+  --bs-gradient: none;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #04009A;
+  --bs-btn-border-color: #04009A;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #04009A;
+  --bs-btn-hover-border-color: #04009A;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #04009A;
+  --bs-btn-active-border-color: #04009A;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #04009A;
+  --bs-btn-disabled-border-color: #04009A;
+}
+
+.elm-track-viz{
+  visibility: hidden !important
 }
