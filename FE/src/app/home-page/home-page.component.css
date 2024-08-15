@@ -18,7 +18,7 @@ mat-progress-bar {
 .mat-mdc-progress-bar {
   --mdc-linear-progress-active-indicator-color: var(--primary-color);
   --mdc-linear-progress-track-color: var(--secondary-color);
-  --mdc-linear-progress-track-height: 15px;
-  --mdc-linear-progress-active-indicator-height: 15px;
+  --mdc-linear-progress-track-height: 10px;
+  --mdc-linear-progress-active-indicator-height: 10px;
   border-radius: 8px;
 }
