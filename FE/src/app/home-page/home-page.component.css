@@ -22,3 +22,20 @@ mat-progress-bar {
   --mdc-linear-progress-active-indicator-height: 10px;
   border-radius: 8px;
 }
+
+
+.about-us-gradient{
+  background: linear-gradient(90deg, rgba(4,0,154,0.1) 0%, rgba(119,172,241,0.1) 100%);
+}
+
+.about-us-3 {
+  z-index: 3!important;
+}
+
+.about-us-1st {
+  z-index: 1!important;
+}
+
+.zminus-1{
+  z-index: -1!important;
+}
