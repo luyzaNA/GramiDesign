@@ -3,7 +3,7 @@ import {MatIcon} from "@angular/material/icon";
 import {TranslateService} from "@ngx-translate/core";
 import {AppTranslationModule} from "../Translator/TranslateModule";
 import {NgOptimizedImage} from "@angular/common";
-import {Router, RouterLink} from "@angular/router";
+import {ActivatedRoute, Router, RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-navigation-bar',
@@ -20,7 +20,7 @@ import {Router, RouterLink} from "@angular/router";
 export class NavigationBarComponent {
   currentLanguage: string = "ro";
 
-  constructor(private translateService: TranslateService, private router: Router) {
+  constructor(private translateService: TranslateService, private router: Router, private activeRoute: ActivatedRoute) {
     this.currentLanguage = this.translateService.currentLang;
   }
 
@@ -31,6 +31,9 @@ export class NavigationBarComponent {
   }
 
   scrollToSection(sectionId: string) {
+    if(this.router.url !== '/'){
+      this.router.navigate(['/']);
+    }
     const element = document.getElementById(sectionId);
     if (element) {
       const headerOffset = sectionId != "home"? 70 : 500; // Change this value to your desired offset
