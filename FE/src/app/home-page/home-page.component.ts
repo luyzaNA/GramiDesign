@@ -30,6 +30,8 @@ export class HomePageComponent {
     const scrollfeature = scrollingElement.scrollTop;
     const elementsToTrackRight = document.querySelectorAll('.element-to-track');
     const elementsToTrackLeft = document.querySelectorAll('.element-to-track-in');
+    const elementsToTrackScaleInCenter = document.querySelectorAll('.scale-in-center-tracker');
+    const elementsToTrackPuffInCenter = document.querySelectorAll('.elm-track-puff-in-center');
 
     elementsToTrackRight.forEach(element => {
       const elementTop = element.getBoundingClientRect().top + scrollfeature;
@@ -50,6 +52,27 @@ export class HomePageComponent {
       if (isInMiddle && !element.classList.contains('fade-in')) {
         element.classList.remove('elm-track-viz');
         element.classList.add('fade-in');
+      }
+    });
+    elementsToTrackScaleInCenter.forEach(element => {
+      const elementTop = element.getBoundingClientRect().top + scrollfeature;
+      const elementBottom = elementTop + element.clientHeight;
+      const isInMiddle = elementTop < (scrollfeature + viewportHeight / 1.2) && elementBottom > (scrollfeature + viewportHeight / 3.3);
+
+      if (isInMiddle && !element.classList.contains('scale-in-center')) {
+        element.classList.remove('elm-track-viz');
+        element.classList.add('scale-in-center');
+      }
+    });
+
+    elementsToTrackPuffInCenter.forEach(element => {
+      const elementTop = element.getBoundingClientRect().top + scrollfeature;
+      const elementBottom = elementTop + element.clientHeight;
+      const isInMiddle = elementTop < (scrollfeature + viewportHeight / 1.2) && elementBottom > (scrollfeature + viewportHeight / 3.3);
+
+      if (isInMiddle && !element.classList.contains('puff-in-center')) {
+        element.classList.remove('elm-track-viz');
+        element.classList.add('puff-in-center');
       }
     });
 

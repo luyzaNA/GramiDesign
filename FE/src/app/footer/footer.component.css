@@ -1,0 +1,7 @@
+.footer-container{
+  background-color: rgba(119, 172, 241, 0.16);
+}
+
+li {
+  color: var(--secondary-color);
+}

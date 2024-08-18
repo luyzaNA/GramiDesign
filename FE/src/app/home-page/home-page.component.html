@@ -1,4 +1,4 @@
-<div class="mt-5" style="height: 40000px">
+<div class="mt-5">
   <div class="container-xl">
     <div class="ms-4">
       <div class="row m-0">
@@ -23,11 +23,9 @@
       </div>
     </div>
   </div>
-  <div class="position-relative pt-5 mb-5">
-    <img class="position-absolute w-100 h-100 mb-5 pt-5 img-fluid" ngSrc="assets/about-us-pattern.png" priority
-         height="760" width="1920" alt="">
+  <div class="pt-4 mt-5 pb-4 custom-pattern">
     <div class="container-xl mb-5 pb-5">
-      <div class="d-flex align-items-center flex-column mt-5 pb-5 pt-5">
+      <div class="d-flex align-items-center flex-column pb-5 pt-5">
         <h3 class="fw-bold">Despre noi si cele <span
           style="font-size: 28px; color:var(--primary-color)">3 puncte forte</span></h3>
         <p><span>1. Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -64,8 +62,8 @@
           <mat-progress-bar class="position-absolute w-25 mb-2 ms-2 elm-track-viz element-to-track" mode="determinate"
                             value="50"></mat-progress-bar>
         </div>
-        <div class="d-flex position-absolute element-to-track-in elm-track-viz align-items-end justify-content-end">
-          <img class="ms-5 mt-4 pt-1 img-fluid" ngSrc="assets/about-us-1st.png" alt="about-us-figure" height="578"
+        <div class="d-flex w-100 position-absolute element-to-track-in elm-track-viz align-items-end justify-content-end">
+          <img class="ms-5 col-5 mt-5 pt-5 col-sm-6 col-md-5 col-xl-5 mt-sm-4 pt-sm-1 img-fluid" ngSrc="assets/about-us-1st.png" alt="about-us-figure" height="578"
                width="433">
         </div>
       </div>
@@ -79,14 +77,14 @@
         </div>
         <div>
           <div class="position-relative d-flex">
-            <div class="position-absolute about-us-3 element-to-track-in elm-track-viz">
-              <img class="img-fluid" ngSrc="assets/about-us-1st.png" alt="about-us-figure" height="578"
+            <div class="position-absolute col-5 mt-5 pt-5 col-sm-6 col-md-5 col-xl-5 mt-sm-4 pt-sm-1 about-us-3 element-to-track-in elm-track-viz">
+              <img class="img-fluid " ngSrc="assets/about-us-1st.png" alt="about-us-figure" height="578"
                    width="433">
             </div>
             <div
               class="position-relative mt-5 pt-5 ms-5 ps-5 d-flex elm-track-viz element-to-track flex-column justify-content-end align-items-end">
-              <div class="d-flex w-75 ps-5 align-items-end">
-                <p class="ps-5"><span>3. Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              <div class="d-flex w-75 ps-md-5 align-items-end">
+                <p class="ps-sm-5"><span>3. Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                   tempor incididunt
                   ut
                   labore et dolore magna aliqua.</p>
@@ -97,7 +95,7 @@
               <p class="position-absolute d-flex mb-3 me-2 " style="font-size: 18px">Finalizat
                 <mat-icon class="primary-color ms-2">flag</mat-icon>
               </p>
-              <mat-progress-bar class="position-absolute w-25 mb-2 me-2" mode="determinate"
+              <mat-progress-bar class="position-absolute w-50 mb-2 me-2" mode="determinate"
                                 value="100"></mat-progress-bar>
             </div>
           </div>
@@ -117,7 +115,7 @@
       </div>
       <div class="mt-2 pt-5">
         <div class="row">
-          <div *ngFor="let i; of [1,2,3]" class="col-12 col-xl-4 d-flex justify-content-center">
+          <div *ngFor="let i; of [1,2,3]" class="col-12 col-xl-4 elm-track-viz elm-track-puff-in-center d-flex justify-content-center">
             <div class="d-flex flex-column justify-content-center align-items-center">
               <img ngSrc="assets/service-placeholder.png" width="262" height="299" alt="">
               <h4 class="fw-medium mt-3">Serviciu</h4>
@@ -131,8 +129,7 @@
       </div>
     </div>
   </div>
-  <div class="mt-5 pt-5 mb-5 pb-5 position-relative">
-    <img ngSrc="assets/pattern-photo.png" class="position-absolute zminus-1   w-100" width="1920" priority height="1350" alt="">
+  <div class="mt-5 pt-4 pb-4 custom-pattern">
     <div class="container-xl mt-5">
       <div class="d-flex  flex-column align-items-center justify-content-center">
         <h3 class="fw-bold pb-2">Lucrari finalizate cu success</h3>
@@ -146,7 +143,7 @@
         <div class="row d-flex justify-content-center">
           <div *ngFor="let i; of [1,2,3]" class="col-12 col-xl-4 d-flex justify-content-center">
             <div class="d-flex flex-column" [ngClass]="{'pt-5': i === 2}">
-              <div *ngFor="let j; of [1,2]" class="d-flex m-2 flex-column justify-content-center align-items-center">
+              <div *ngFor="let j; of [1,2]" class="d-flex scale-in-center-tracker elm-track-viz m-2 flex-column justify-content-center align-items-center">
                 <img *ngIf="i!==2" ngSrc="assets/photo-portrait.png" width="359" height="479" alt="">
                 <img *ngIf="i===2" ngSrc="assets/photo-landscape.png" width="359" height="381" alt="">
               </div>

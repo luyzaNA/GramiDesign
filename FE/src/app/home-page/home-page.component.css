@@ -39,3 +39,9 @@ mat-progress-bar {
 .zminus-1{
   z-index: -1!important;
 }
+
+.custom-pattern {
+  background-image: radial-gradient(#E4E4ED 2px, transparent 2px);
+  background-size: 26px 26px;
+  background-color: #FFFFFF;
+}
