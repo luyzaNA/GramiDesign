@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {MatIcon} from "@angular/material/icon";
 import {TranslateService} from "@ngx-translate/core";
 import {AppTranslationModule} from "../Translator/TranslateModule";
@@ -18,18 +18,29 @@ import {Router, RouterLink} from "@angular/router";
   styleUrl: './navigation-bar.component.css'
 })
 export class NavigationBarComponent {
-    currentLanguage: string = "ro";
-    constructor(private translateService: TranslateService, private router: Router) {
-      this.currentLanguage = this.translateService.currentLang;
-    }
+  currentLanguage: string = "ro";
+
+  constructor(private translateService: TranslateService, private router: Router) {
+    this.currentLanguage = this.translateService.currentLang;
+  }
 
   changeLanguage(value: any) {
-        const language = value.target.value;
-        this.translateService
-            .use(language);
-    }
+    const language = value.target.value;
+    this.translateService
+      .use(language);
+  }
 
-  goHome() {
-    this.router.navigate(['/']);
+  scrollToSection(sectionId: string) {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const headerOffset = sectionId != "home"? 70 : 500; // Change this value to your desired offset
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
   }
 }

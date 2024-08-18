@@ -12,14 +12,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-start w-75">
-            <li class="nav-item ms-3 ms-xl-5">
-              <a class="nav-link d-flex align-items-center" href="/">
+            <li (click)="scrollToSection('home')" class="nav-item ms-3 ms-xl-5">
+              <a class="nav-link d-flex align-items-center">
                 <i class="material-icons me-1">home</i> <span>{{ 'Home' | translate }}</span>
               </a>
             </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link d-flex align-items-center" href="../first-page">
-                <i class="material-icons me-1">volume_up</i> <span>{{ 'About us' | translate }}</span>
+            <li (click)="scrollToSection('about-us')" class="nav-item mx-3">
+              <a class="nav-link d-flex align-items-center">
+                <i  class="material-icons me-1">volume_up</i> <span>{{ 'About us' | translate }}</span>
               </a>
             </li>
             <li class="nav-item mx-3">
@@ -28,14 +28,14 @@
                 <span>{{ 'Gallery' | translate }}</span>
               </a>
             </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link d-flex align-items-center" href="../first-page">
+            <li (click)="scrollToSection('services')"  class="nav-item mx-3">
+              <a class="nav-link d-flex align-items-center">
                 <i class="material-icons me-1">architecture</i>
                 <span>{{ 'Services' | translate }}</span>
               </a>
             </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link d-flex align-items-center" href="../first-page">
+            <li (click)="scrollToSection('contact')"  class="nav-item mx-3">
+              <a class="nav-link d-flex align-items-center">
                 <i class="material-icons me-1">contact_phone</i> <span>Contact</span>
               </a>
             </li>
