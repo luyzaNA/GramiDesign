@@ -1,3 +1,10 @@
 img{
   border-top: 2px #24249c solid;
 }
+
+
+@media (min-width: 1300px) {
+  .carousel-item {
+    height: 70vh;
+  }
+}
