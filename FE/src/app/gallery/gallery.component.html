@@ -27,3 +27,22 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<!--<div class="container">-->
+<!--  <div class="row">-->
+<!--  <div *ngIf="images.length">-->
+<!--  <div *ngFor="let image of images">-->
+<!--    <img [src]="image.path" [alt]="image.name" />-->
+<!--  </div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<div class="container-xl">
+  <div class="row gx-3 mt-5">
+    <div class="col-xl-3 col-12 col-sm-6 col-md-4" [ngClass]="{'mt-sm-4': i%2 != 0}" *ngFor="let i of [0,1,2,3]">
+      <div class="mb-3" *ngFor="let j; let idx=index of colNo">
+        <img [src]="images[i+idx*4].path" class="img-fluid w-100 rounded-2 shadow" alt="image"/>
+      </div>
+    </div>
+  </div>
+
+</div>
