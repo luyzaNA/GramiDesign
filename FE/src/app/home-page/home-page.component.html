@@ -6,18 +6,20 @@
           <h2 class="fw-bold">Creeaza un model unic potrivit locuintei tale</h2>
           <p style="font-size: 20px" class="text-muted">Totul incepe cu un designer bun si se termine cu zambet pe
             buze</p>
-          <button class="btn btn-primary">Contacteaza-ne</button>
+          <button (click)="scrollToSection('contact')" class="btn btn-primary">Contacteaza-ne</button>
         </div>
         <div class="col-12 col-lg-6 d-flex justify-content-center">
           <div class="d-flex justify-content-center position-relative">
             <img ngSrc="assets/home-pg-figure.png" priority class="mt-5" alt="home-pg-figure" height="440" width="453">
-            <img class="position-absolute" priority ngSrc="assets/first-page-portrait.png" alt="home-pg-figure" height="472"
+            <img class="position-absolute" priority ngSrc="assets/first-page-portrait.png" alt="home-pg-figure"
+                 height="472"
                  width="354">
           </div>
         </div>
         <div class="col-12 mt-5 pt-5">
           <div class="d-flex justify-content-center">
-            <img class="bounce-bottom" priority ngSrc="assets/icons8-scroll.png" alt="home-pg-figure" height="50" width="50">
+            <img class="bounce-bottom" priority ngSrc="assets/icons8-scroll.png" alt="home-pg-figure" height="50"
+                 width="50">
           </div>
         </div>
       </div>
@@ -62,8 +64,10 @@
           <mat-progress-bar class="position-absolute w-25 mb-2 ms-2 elm-track-viz element-to-track" mode="determinate"
                             value="50"></mat-progress-bar>
         </div>
-        <div class="d-flex w-100 position-absolute element-to-track-in elm-track-viz align-items-end justify-content-end">
-          <img class="ms-5 col-5 mt-5 pt-5 col-sm-6 col-md-5 col-xl-5 mt-sm-4 pt-sm-1 img-fluid" ngSrc="assets/about-us-1st.png" alt="about-us-figure" height="578"
+        <div
+          class="d-flex w-100 position-absolute element-to-track-in elm-track-viz align-items-end justify-content-end">
+          <img class="ms-5 col-5 mt-5 pt-5 col-sm-6 col-md-5 col-xl-5 mt-sm-4 pt-sm-1 img-fluid"
+               ngSrc="assets/about-us-1st.png" alt="about-us-figure" height="578"
                width="433">
         </div>
       </div>
@@ -77,14 +81,16 @@
         </div>
         <div>
           <div class="position-relative d-flex">
-            <div class="position-absolute col-5 mt-5 pt-5 col-sm-6 col-md-5 col-xl-5 mt-sm-4 pt-sm-1 about-us-3 element-to-track-in elm-track-viz">
+            <div
+              class="position-absolute col-5 mt-5 pt-5 col-sm-6 col-md-5 col-xl-5 mt-sm-4 pt-sm-1 about-us-3 element-to-track-in elm-track-viz">
               <img class="img-fluid " ngSrc="assets/about-us-1st.png" alt="about-us-figure" height="578"
                    width="433">
             </div>
             <div
               class="position-relative mt-5 pt-5 ms-5 ps-5 d-flex elm-track-viz element-to-track flex-column justify-content-end align-items-end">
               <div class="d-flex w-75 ps-md-5 align-items-end">
-                <p class="ps-sm-5"><span>3. Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <p class="ps-sm-5"><span>3. Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod
                   tempor incididunt
                   ut
                   labore et dolore magna aliqua.</p>
@@ -115,14 +121,13 @@
       </div>
       <div class="mt-2 pt-5 d-flex justify-content-center flex-column">
         <div class="row">
-          <div *ngFor="let i; of [1,2,3]" class="col-12 col-xl-4 elm-track-viz elm-track-puff-in-center d-flex justify-content-center">
+          <div *ngFor="let service; of services"
+               class="col-12 col-xl-4 elm-track-viz elm-track-puff-in-center d-flex justify-content-center">
             <div class="d-flex flex-column justify-content-center align-items-center">
               <img ngSrc="assets/service-placeholder.png" width="262" height="299" alt="">
-              <h4 class="fw-medium mt-3">Serviciu</h4>
-              <p class="w-75 text-muted text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor
-                incididunt ut labore et dolore.</p>
-              <h4 class="fw-medium text-center primary-color mt-3">Pret: 1000 RON</h4>
+              <h4 class="fw-medium mt-3">{{ service.name }}</h4>
+              <p class="w-75 text-muted text-center">{{ service.description }}</p>
+              <h4 class="fw-medium text-center primary-color mt-3">Pret: {{ service.price }} RON</h4>
             </div>
           </div>
         </div>
@@ -144,7 +149,8 @@
         <div class="row d-flex justify-content-center">
           <div *ngFor="let i; of [1,2,3]" class="col-12 col-xl-4 d-flex justify-content-center">
             <div class="d-flex flex-column" [ngClass]="{'pt-5': i === 2}">
-              <div *ngFor="let j; of [1,2]" class="d-flex scale-in-center-tracker elm-track-viz m-2 flex-column justify-content-center align-items-center">
+              <div *ngFor="let j; of [1,2]"
+                   class="d-flex scale-in-center-tracker elm-track-viz m-2 flex-column justify-content-center align-items-center">
                 <img *ngIf="i!==2" ngSrc="assets/photo-portrait.png" width="359" height="479" alt="">
                 <img *ngIf="i===2" ngSrc="assets/photo-landscape.png" width="359" height="381" alt="">
               </div>

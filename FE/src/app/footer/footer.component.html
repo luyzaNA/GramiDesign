@@ -20,19 +20,16 @@
         <h5 class="text-uppercase">Links</h5>
         <ul class="list-unstyled">
           <li>
-            <a href="/">Home</a>
+            <a class="link-primary mouse-pointer" (click)="scrollToSection('home')">Home</a>
           </li>
           <li>
-            <a href="../first-page">About us</a>
+            <a class="link-primary mouse-pointer" (click)="scrollToSection('about-us')">About us</a>
           </li>
           <li>
-            <a href="../first-page">Gallery</a>
+            <a routerLink="/gallery">Gallery</a>
           </li>
           <li>
-            <a href="../first-page">Services</a>
-          </li>
-          <li>
-            <a href="../first-page">Contact</a>
+            <a routerLink="/services">Services</a>
           </li>
         </ul>
       </div>

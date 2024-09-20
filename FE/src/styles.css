@@ -73,3 +73,7 @@ i {
 .elm-track-viz{
   visibility: hidden !important
 }
+
+.mouse-pointer {
+  cursor: pointer;
+}

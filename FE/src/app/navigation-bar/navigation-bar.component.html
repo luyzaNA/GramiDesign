@@ -34,14 +34,9 @@
                 <span>{{ 'Services' | translate }}</span>
               </a>
             </li>
-            <li (click)="scrollToSection('contact')"  class="nav-item mx-3">
-              <a class="nav-link d-flex align-items-center">
-                <i class="material-icons me-1">contact_phone</i> <span>Contact</span>
-              </a>
-            </li>
           </ul>
           <div class="d-flex align-items-center">
-            <button class="btn btn-outline-primary me-3" type="button">{{ 'Contact us' | translate }}</button>
+            <button (click)="scrollToSection('contact')" class="btn btn-outline-primary me-3" type="button">{{ 'Contact us' | translate }}</button>
           </div>
         </div>
       </div>
