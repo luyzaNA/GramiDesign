@@ -7,6 +7,11 @@ a:hover {
   border-bottom: 1px solid var(--secondary-color);
 }
 
+.active {
+  color: var(--secondary-color)!important;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
 form {
   width: 200px;
 }

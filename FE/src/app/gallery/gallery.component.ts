@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, HostListener, OnInit} from '@angular/core';
 import {NgClass, NgForOf, NgIf, NgOptimizedImage} from "@angular/common";
 import {ImageService} from "../shared/imagesPathFromJson.service";
 import {HttpClientModule} from "@angular/common/http";
