@@ -1,4 +1,4 @@
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+<div id="carouselExampleIndicators" class="carousel slide shadow" data-bs-ride="carousel" data-bs-interval="3000">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -37,6 +37,7 @@
 <!--</div>-->
 <!--</div>-->
 <div class="container-xl pb-5">
+  <p class="h4 text-dark border-secondary pt-4 pb-2 mb-2 border-bottom">Lucrari finalizate cu success</p>
   <div class="row gx-3 mt-5">
     <div class="col-xl-3 col-12 col-sm-6 col-md-4" [ngClass]="{'mt-sm-4': i%2 != 0}" *ngFor="let i of [0,1,2,3]">
       <div class="mb-3 elm-track-viz elm-track-puff-in-center p-2 shadow-sm border-secondary border-2 border rounded-2" *ngFor="let j; let idx=index of colNo">
