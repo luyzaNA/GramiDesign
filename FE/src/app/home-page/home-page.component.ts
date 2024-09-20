@@ -27,18 +27,21 @@ export class HomePageComponent {
     {
       name: 'Service 1',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-      price: 100
+      price: 100,
+      image: 'assets/service-placeholder.png'
     },
     // Add more services here
     {
       name: 'Service 2',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-      price: 200
+      price: 200,
+      image: 'assets/service-placeholder.png'
     },
     {
       name: 'Service 3',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-      price: 300
+      price: 300,
+      image: 'assets/service-placeholder.png'
     },
   ];
 
