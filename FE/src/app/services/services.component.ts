@@ -64,18 +64,6 @@ export class ServicesComponent {
       description: 'Placarea treptelor cu gresie, 100 lei/metru liniar, presupune pregătirea suprafeței, tăierea și montarea plăcilor de gresie, asigurând un finisaj uniform și estetic, cu atenție la detalii pentru siguranță și durabilitate.',
       price: 100,
       image: 'assets/service-placeholder.png'
-    },
-    {
-      name: 'Service 9',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-      price: 900,
-      image: 'assets/service-placeholder.png'
-    },
-    {
-      name: 'Service 10',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore',
-      price: 1000,
-      image: 'assets/service-placeholder.png'
-    },
+    }
   ]
 }

@@ -25,22 +25,23 @@ export class HomePageComponent {
   }
   services = [
     {
-      name: 'Service 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-      price: 100,
+      name: 'DECOPERTAT GRESIE/FAIANTA',
+      description: 'Serviciu de decopertare gresie, 30 lei/metru pătrat, pregătire eficientă a suprafeței pentru noi renovări.',
+      price: 30,
       image: 'assets/service-placeholder.png'
     },
     // Add more services here
     {
-      name: 'Service 2',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-      price: 200,
+      name: 'PLACARE GRESIE/FAIANTA',
+      description: 'Serviciu de placare gresie și faianță, 90 lei/metru pătrat, oferind un design elegant și durabil pentru orice spațiu.',
+      price: 90,
       image: 'assets/service-placeholder.png'
     },
     {
-      name: 'Service 3',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-      price: 300,
+      name: 'MANOPERA CARAMIDA APARENTA',
+      description: '\n' +
+        'Serviciu de montare cărămidă aparentă, 120 lei/metru pătrat, aducând un aspect rustic și autentic în interior sau exterior.',
+      price: 120,
       image: 'assets/service-placeholder.png'
     },
   ];
