@@ -1,5 +1,5 @@
 import {Component, HostListener} from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {NavigationEnd, Router, RouterOutlet} from '@angular/router';
 import {NavigationBarComponent} from "./navigation-bar/navigation-bar.component";
 import { TranslateService } from '@ngx-translate/core';
 import {MatIcon} from "@angular/material/icon";
@@ -15,9 +15,17 @@ import {FooterComponent} from "./footer/footer.component";
 export class AppComponent {
   title = 'FE';
 
-  constructor(private translateService: TranslateService) {
-    this.translateService.use('ro')
+  constructor(private translateService: TranslateService,private router: Router) {
+    this.translateService.use('ro');
+
+    this.router.events.subscribe((event: any) => {
+      if (event instanceof NavigationEnd) {
+        // Scroll to top after each navigation
+        window.scrollTo(0, 0);
+      }
+    });
   }
+
 
 
   @HostListener('window:scroll', ['$event'])
