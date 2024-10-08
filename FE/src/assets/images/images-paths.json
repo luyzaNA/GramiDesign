@@ -93,7 +93,7 @@
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/parchet1.jpeg"
+      "path": "assets/images/poza11.jpg"
     },
     {
       "id": 1,
@@ -108,7 +108,17 @@
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/tavan1.jpg"
+      "path": "assets/images/poza12.jpg"
+    },
+    {
+      "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/sauna.jpg"
+    },
+    {
+      "id": 1,
+      "ratio": 2,
+      "path": "assets/images/pzoa13.jpg"
     },
     {
       "id": 1,
@@ -118,17 +128,7 @@
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/tavan1.jpg"
-    },
-    {
-      "id": 1,
-      "ratio": 0.75,
-      "path": "assets/images/parchet1.jpeg"
-    },
-    {
-      "id": 1,
-      "ratio": 2,
-      "path": "assets/images/tavan1.jpg"
+      "path": "assets/images/poza13.jpg"
     },
     {
       "id": 1,

@@ -28,21 +28,21 @@ export class HomePageComponent {
       name: 'DECOPERTAT GRESIE/FAIANTA',
       description: 'Serviciu de decopertare gresie, 30 lei/metru pătrat, pregătire eficientă a suprafeței pentru noi renovări.',
       price: 30,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/decopertat.jpeg'
     },
     // Add more services here
     {
       name: 'PLACARE GRESIE/FAIANTA',
       description: 'Serviciu de placare gresie și faianță, 90 lei/metru pătrat, oferind un design elegant și durabil pentru orice spațiu.',
       price: 90,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/placare_gresie.jpeg'
     },
     {
       name: 'MANOPERA CARAMIDA APARENTA',
       description: '\n' +
         'Serviciu de montare cărămidă aparentă, 120 lei/metru pătrat, aducând un aspect rustic și autentic în interior sau exterior.',
       price: 120,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/caramida_aparenta.jpeg'
     },
   ];
 
