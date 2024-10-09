@@ -43,7 +43,7 @@ export class ServicesComponent {
       name: 'PLACARE GRANIT',
       description: 'Placarea cu granit, 130 lei/metru patrat, este ideală pentru spații care necesită durabilitate și rezistență la zgârieturi, pentru blaturi, podele și fațade exterioare.',
       price: 130,
-      image: 'assets/services/man_granit.jpeg'
+      image: 'assets/services/granit.jpeg'
     },
     {
       name: 'PLACARE ONIX',
@@ -91,43 +91,43 @@ export class ServicesComponent {
       name: 'APLICARE CADORO',
       description: 'Aplicarea Cadoro, 60 lei/metru patrat ofera un aspect elegant și sofisticat pereților, fiind ideală pentru interioare de lux, cum ar fi hoteluri, restaurante sau locuințe.',
       price: 60,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/cadoro.jpeg'
     },
     {
       name: 'APLICARE ISTINTO',
       description: 'Aplicarea Instinto, 80 lei/metru patrat, este ideală pentru a adăuga un accent artistic și modern în spațiile interioare, cum ar fi birouri, restaurante sau locuințe.',
       price: 80,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/istinto.jpeg'
     },
     {
       name: 'MONTARE TAPET',
       description: 'Montarea tapetului, 50 lei/meutr patrat, oferă o gamă variată de stiluri, culori și texturi pentru a personaliza pereții și a crea atmosfera dorită în orice cameră.',
       price: 50,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/tapet.jpeg'
     },
     {
       name: 'MONTARE SCAFE RIGIPS',
       description: 'Montarea scafelor din rigips, 50 lei/metru patrat, este o soluție eficientă pentru a adăuga un element decorativ și elegant pe pereți și plafoane pentru spațiile interioare.',
       price: 50,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/scafe.jpeg'
     },
     {
       name: 'EXECUTIE TAVAN RIGIPS',
       description: 'Executarea unui tavan din rigips, 45 lei/metru patrat, este o tehnică eficientă pentru a crea suprafețe netede, pentru a îmbunătăți izolația fonică și termică.',
       price: 45,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/tavan.jpeg'
     },
     {
       name: 'MONTARE PROFILE COLTURI',
       description: 'Montarea profilelor la colțuri , 20 lei/metru patrat, este un proces esențial în finisarea pereților și tavanelor, asigurând o tranziție netedă și estetică între suprafețe.',
       price: 20,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/coltare.jpeg'
     },
     {
       name: 'VITRINA RIGIPS PENTRU TV',
       description: 'Vitrina din rigips este o soluție modernă și elegantă pentru expunerea obiectelor decorative sau a produselor, fiind ușor de personalizat în funcție de dimensiuni și stil.',
       price: 'negociabil',
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/vitrina.jpeg'
     }
   ]
 }
