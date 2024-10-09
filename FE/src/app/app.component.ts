@@ -4,9 +4,11 @@ import {NavigationBarComponent} from "./navigation-bar/navigation-bar.component"
 import { TranslateService } from '@ngx-translate/core';
 import {MatIcon} from "@angular/material/icon";
 import {FooterComponent} from "./footer/footer.component";
+import {ImageService} from "./shared/imagesPathFromJson.service";
 
 @Component({
   selector: 'app-root',
+  providers: [ImageService],
   standalone: true,
   imports: [RouterOutlet, NavigationBarComponent, MatIcon, FooterComponent],
   templateUrl: './app.component.html',

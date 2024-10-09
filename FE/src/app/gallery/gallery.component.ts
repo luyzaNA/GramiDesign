@@ -13,7 +13,6 @@ import {HttpClientModule} from "@angular/common/http";
     NgClass,
     HttpClientModule
   ],
-  providers: [ImageService],
   templateUrl: './gallery.component.html',
   styleUrl: './gallery.component.css'
 })
@@ -73,6 +72,6 @@ export class GalleryComponent implements OnInit {
   }
 
   get colNo(): number[] {
-    return new Array(this.images.length / 4).fill(null).map((_, i) => i + 1);
+    return new Array(Math.floor(this.images.length / 4)).fill(null).map((_, i) => i + 1);
   }
 }

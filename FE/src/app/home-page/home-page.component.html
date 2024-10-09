@@ -146,14 +146,10 @@
           magna aliqua.</p>
       </div>
       <div class="mt-2 pt-5 d-flex flex-column align-items-center">
-        <div class="row d-flex justify-content-center">
-          <div *ngFor="let i; of [1,2,3]" class="col-12 col-xl-4 d-flex justify-content-center">
-            <div class="d-flex flex-column" [ngClass]="{'pt-5': i === 2}">
-              <div *ngFor="let j; of [1,2]"
-                   class="d-flex scale-in-center-tracker elm-track-viz m-2 flex-column justify-content-center align-items-center">
-                <img *ngIf="i!==2" ngSrc="assets/photo-portrait.png" width="359" height="479" alt="">
-                <img *ngIf="i===2" ngSrc="assets/photo-landscape.png" width="359" height="381" alt="">
-              </div>
+        <div class="row gx-3 mt-5">
+          <div class="col-xl-3 col-12 col-sm-6 col-md-4" [ngClass]="{'mt-sm-4': i%2 != 0}" *ngFor="let i of [0,1,2,3]">
+            <div class="mb-3 elm-track-viz elm-track-puff-in-center shadow-sm rounded-2" *ngFor="let j; let idx=index of colNo">
+              <img [src]="images[i+idx*4].path" class="img-fluid w-100 rounded-2" alt="image"/>
             </div>
           </div>
         </div>
