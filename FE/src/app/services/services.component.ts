@@ -34,105 +34,99 @@ export class ServicesComponent {
       image: 'assets/services/caramida_aparenta.jpeg'
     },
     {
-      name: 'MANOPERA PLACARE MARMURA',
-      description: 'Serviciu de placare cu marmură, 130 lei/metru pătrat, oferind un aspect luxurious și sofisticat, ideal pentru orice spațiu elegant.',
+      name: 'PLACARE MARMURA',
+      description: 'Placarea cu marmură, 130 lei/metru patrat, este utilizată frecvent în băi, bucătării, pardoseli și blaturi datorită rezistenței și aspectului său luxos.',
       price: 130,
-      image: 'assets/services/placare_man_marmura.jpg'
+      image: 'assets/services/placare_marmura.jpeg'
     },
     {
-      name: 'MANOPERA PLACARE GRANIT',
-      description: 'Serviciu de placare cu granit, 130 lei/metru pătrat, oferind robustețe și estetică superioară, ideal pentru proiecte deosebite și durabile.',
+      name: 'PLACARE GRANIT',
+      description: 'Placarea cu granit, 130 lei/metru patrat, este ideală pentru spații care necesită durabilitate și rezistență la zgârieturi, pentru blaturi, podele și fațade exterioare.',
       price: 130,
       image: 'assets/services/man_granit.jpeg'
     },
     {
-      name: 'MANOPERA PLACARE ONIX',
-      description: 'Serviciu de placare cu onix, 30 lei/metru pătrat, aducând un strop de lux și transparență în orice ambient, perfect pentru efecte decorative unice.',
+      name: 'PLACARE ONIX',
+      description: 'Placarea cu onix, 130 lei/metru patrat, potrivită pentru interioare de lux, fiind adesea utilizată pentru pereți decorativi, blaturi și elemente de iluminat.',
       price: 130,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/placare_onix.jpeg'
     },
     {
-      name: 'MANOPERA PLACARE TRAVERTIN',
-      description: 'Serviciu de placare cu travertin, 30 lei/metru pătrat, aducând un aspect natural și cald, ',
+      name: 'PLACARE TRAVERTIN',
+      description: 'Placarea cu travertin/ 130 lei/metru patrat, este ideală pentru spații care doresc un aspect rustic și natural, fiind utilizată frecvent în băi, terase, fațade și pardoseli.',
       price: 130,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/travertin.jpeg'
     },
     {
       name: 'PLACARI TREPTE GRESIE',
-      description: 'Placarea treptelor cu gresie, 100 lei/metru liniar, presupune pregătirea suprafeței, tăierea și montarea plăcilor de gresie, asigurând un finisaj uniform și estetic, cu atenție la detalii pentru siguranță și durabilitate.',
+      description: 'Placarea treptelor cu gresie, 100 lei/metru patrat, este o soluție care ofera durabilitate și o întreținere ușoară, fiind ideală pentru atât pentru interior, cât și pentru exterior.',
       price: 100,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/placare_gresie_scari.jpeg'
     },
     {
       name: 'MONTARE PARCHET LAMINAT',
-      description: 'Montarea parchetului laminat cu plintă, 40 lei/metru patrat, implică așezarea plăcilor de parchet pe podea și fixarea plintelor la baza pereților pentru a ascunde rosturile și a oferi un aspect finisat.',
+      description: 'Parchetul laminat, montarea 40 lei/metru patrat,  este o opțiune accesibilă, simplă si este ideal pentru orice tip de încăpere, de la livinguri la dormitoare.',
       price: 40,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/parchet_laminat.jpeg'
     },
     {
       name: 'DECOPERTAT PARCHET LAMINAT',
-      description: 'Decopertarea parchetului laminat implică îndepărtarea plintelor, scoaterea plăcilor de parchet și curățarea suprafeței pentru a pregăti podeaua pentru un nou strat de acoperire.',
+      description: 'Decopertarea parchetului laminat este procesul de îndepărtare a acestuia, necesar pentru a permite renovarea sau înlocuirea cu un alt tip de pardoseală.',
       price: 'negociabil',
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/decopertat_parchet.jpeg'
     },
     {
       name: 'APLICARE STUCCO VENETIAN',
-      description: 'Aplicarea stucco venetian, 80 lei/metru patrat, presupune aplicarea unui strat de bază de tencuială, urmat de mai multe straturi subțiri de stucco lustruit și finisat pentru a obține un efect de marmură lucioasă și sofisticată.',
+      description: 'Aplicarea stucco-ului venețian, 80 lei/metru patrat, este folosită pentru a crea finisaje decorative elegante pe pereți, fiind ideală pentru spații interioare de lux.',
       price: 80,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/stucco.jpeg'
     },
     {
       name: 'APLICARE MARCOPOLO',
-      description: 'Aplicarea Marcopolo, 60 lei/metru patrat, implică aplicarea unui strat de bază, urmat de un strat de vopsea decorativă texturată cu unelte speciale pentru a crea un efect de suprafață perlată, metalizată și elegantă.',
+      description: 'Aplicarea Marcopolo, 60 lei/metru patrat, este utilizată adesea în spații comerciale și rezidențiale, datorită capacității de a reflecta lumina într-un mod spectaculos.',
       price: 60,
-      image: 'assets/service-placeholder.png'
+      image: 'assets/services/marcopolo.jpeg'
     },
     {
       name: 'APLICARE CADORO',
-      description: 'Aplicarea Cadoro, 60 lei/metru patrat, constă în aplicarea unei vopsele decorative pe bază de apă, cu ajutorul unei mistrii sau pensule, pentru a crea un efect mătăsos, cu reflexii irizate și texturi fine pe pereți.',
+      description: 'Aplicarea Cadoro, 60 lei/metru patrat ofera un aspect elegant și sofisticat pereților, fiind ideală pentru interioare de lux, cum ar fi hoteluri, restaurante sau locuințe.',
       price: 60,
       image: 'assets/service-placeholder.png'
     },
     {
       name: 'APLICARE ISTINTO',
-      description: 'Aplicarea Istinto, 80 lei/metru patrat, implică utilizarea unei tencuieli decorative pe bază de var, care se aplică cu o mistrie și alte unelte speciale pentru a crea texturi complexe și efecte tridimensionale, imitând piatra naturală sau alte materiale.',
+      description: 'Aplicarea Instinto, 80 lei/metru patrat, este ideală pentru a adăuga un accent artistic și modern în spațiile interioare, cum ar fi birouri, restaurante sau locuințe.',
       price: 80,
       image: 'assets/service-placeholder.png'
     },
     {
       name: 'MONTARE TAPET',
-      description: 'Montarea tapetului, 50 lei/metru patrat, implică pregătirea pereților, tăierea fâșiilor, aplicarea adezivului și lipirea acestora pentru un finisaj uniform.',
+      description: 'Montarea tapetului, 50 lei/meutr patrat, oferă o gamă variată de stiluri, culori și texturi pentru a personaliza pereții și a crea atmosfera dorită în orice cameră.',
       price: 50,
       image: 'assets/service-placeholder.png'
     },
     {
       name: 'MONTARE SCAFE RIGIPS',
-      description: 'Montarea scafelor din rigips, 50 lei/metru liniar, presupune fixarea profilului metalic pe tavan, atașarea panourilor de rigips și finisarea îmbinărilor pentru un aspect uniform.',
-      price: 50,
-      image: 'assets/service-placeholder.png'
-    },
-    {
-      name: 'MONTARE SCAFE RIGIPS',
-      description: 'Montarea scafelor din rigips, 50 lei/metru liniar, presupune fixarea profilului metalic pe tavan, atașarea panourilor de rigips și finisarea îmbinărilor pentru un aspect uniform.',
+      description: 'Montarea scafelor din rigips, 50 lei/metru patrat, este o soluție eficientă pentru a adăuga un element decorativ și elegant pe pereți și plafoane pentru spațiile interioare.',
       price: 50,
       image: 'assets/service-placeholder.png'
     },
     {
       name: 'EXECUTIE TAVAN RIGIPS',
-      description: 'Executia tavanului din rigips,45 lei/metru patrat, include crearea structurii de susținere și montarea plăcilor pentru un finisaj estetic și durabil.',
+      description: 'Executarea unui tavan din rigips, 45 lei/metru patrat, este o tehnică eficientă pentru a crea suprafețe netede, pentru a îmbunătăți izolația fonică și termică.',
       price: 45,
       image: 'assets/service-placeholder.png'
     },
     {
       name: 'MONTARE PROFILE COLTURI',
-      description: 'Montarea profililor la colturi de rigips, 20 lei/metru liniar, pentru colțuri implică tăierea profilului la dimensiunea dorită, fixarea acestuia pe colțurile pereților cu șuruburi sau adeziv, și asigurarea unei aliniere corecte.',
+      description: 'Montarea profilelor la colțuri , 20 lei/metru patrat, este un proces esențial în finisarea pereților și tavanelor, asigurând o tranziție netedă și estetică între suprafețe.',
       price: 20,
       image: 'assets/service-placeholder.png'
     },
     {
       name: 'VITRINA RIGIPS PENTRU TV',
-      description: 'Crearea unei vitrine din rigips pentru TV, cu pretul diferit in functie de model, implică proiectarea și construirea unei structuri din rigips care să integreze televizorul și să ofere spațiu pentru accesori.',
-      price: '-',
+      description: 'Vitrina din rigips este o soluție modernă și elegantă pentru expunerea obiectelor decorative sau a produselor, fiind ușor de personalizat în funcție de dimensiuni și stil.',
+      price: 'negociabil',
       image: 'assets/service-placeholder.png'
     }
   ]
