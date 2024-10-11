@@ -17,6 +17,11 @@
     },
     {
       "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/gard_nou.jpg"
+    },
+    {
+      "id": 1,
       "ratio": 2,
       "path": "assets/images/model1.jpg"
     },
@@ -24,11 +29,6 @@
       "id": 1,
       "ratio": 0.75,
       "path": "assets/images/scari1.jpg"
-    },
-    {
-      "id": 1,
-      "ratio": 2,
-      "path": "assets/images/tavan1.jpg"
     },
     {
       "id": 1,
@@ -97,13 +97,8 @@
     },
     {
       "id": 1,
-      "ratio": 2,
-      "path": "assets/images/tavan1.jpg"
-    },
-    {
-      "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/parchet1.jpeg"
+      "path": "assets/images/perete_nou.jpg"
     },
     {
       "id": 1,
@@ -123,7 +118,7 @@
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/parchet1.jpeg"
+      "path": "assets/images/perete_nou2.jpg"
     },
     {
       "id": 1,
@@ -133,32 +128,32 @@
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/parchet1.jpeg"
+      "path": "assets/images/perete_nou6.jpg"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/tavan1.jpg"
+      "path": "assets/images/pereti_noi.jpg"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/parchet1.jpeg"
+      "path": "assets/images/stalp_nou.jpg"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/tavan1.jpg"
+      "path": "assets/images/tavan_nou2.jpeg"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/parchet1.jpeg"
+      "path": "assets/images/tavan_nou.jpeg"
     },
     {
       "id": 1,
-      "ratio": 2,
-      "path": "assets/images/tavan1.jpg"
+      "ratio": 0.75,
+      "path": "assets/images/tavan_nou3.jpeg"
     }
   ]
 }
