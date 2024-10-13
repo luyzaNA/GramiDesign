@@ -12,11 +12,6 @@
     },
     {
       "id": 1,
-      "ratio": 2,
-      "path": "assets/images/model2.jpg"
-    },
-    {
-      "id": 1,
       "ratio": 0.75,
       "path": "assets/images/gard_nou.jpg"
     },
@@ -34,11 +29,6 @@
       "id": 1,
       "ratio": 0.75,
       "path": "assets/images/floare1.jpg"
-    },
-    {
-      "id": 1,
-      "ratio": 2,
-      "path": "assets/images/model3.jpg"
     },
     {
       "id": 1,
@@ -64,11 +54,6 @@
       "id": 1,
       "ratio": 0.75,
       "path": "assets/images/model8.jpg"
-    },
-    {
-      "id": 1,
-      "ratio": 2,
-      "path": "assets/images/model10.jpg"
     },
     {
       "id": 1,
@@ -103,11 +88,6 @@
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/poza12.jpg"
-    },
-    {
-      "id": 1,
-      "ratio": 0.75,
       "path": "assets/images/sauna.jpg"
     },
     {
@@ -117,7 +97,7 @@
     },
     {
       "id": 1,
-      "ratio": 0.75,
+      "ratio": 2,
       "path": "assets/images/perete_nou2.jpg"
     },
     {
@@ -132,13 +112,13 @@
     },
     {
       "id": 1,
-      "ratio": 2,
+      "ratio": 0.75,
       "path": "assets/images/pereti_noi.jpg"
     },
     {
       "id": 1,
-      "ratio": 0.75,
-      "path": "assets/images/stalp_nou.jpg"
+      "ratio": 2,
+      "path": "assets/images/stalp_nou.jpeg"
     },
     {
       "id": 1,
@@ -152,8 +132,63 @@
     },
     {
       "id": 1,
-      "ratio": 0.75,
+      "ratio": 2,
       "path": "assets/images/tavan_nou3.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/baie.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 2,
+      "path": "assets/images/exterior.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 2,
+      "path": "assets/images/exterior2.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 2,
+      "path": "assets/images/scariPorto.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/baie.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/exterior.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/exterior2.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/scari.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/scariPorto.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 2,
+      "path": "assets/images/tati.jpg"
+    },
+    {
+      "id": 1,
+      "ratio": 2,
+      "path": "assets/images/tavanRig.jpeg"
     }
   ]
 }

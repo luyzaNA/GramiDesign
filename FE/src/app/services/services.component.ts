@@ -23,8 +23,8 @@ export class ServicesComponent {
     },
     {
       name: 'PLACARE GRESIE/FAIANTA',
-      description: 'Serviciu de placare gresie (pentru podele) și faianță (pentru pereti), 90 lei/metru pătrat, presupune instalarea placilor ceramice.',
-      price: 90,
+      description: 'Serviciu de placare gresie (pentru podele) și faianță (pentru pereti), 60 lei/metru pătrat, presupune instalarea placilor ceramice.',
+      price: 60,
       image: 'assets/services/placare_gresie.jpeg'
     },
     {
@@ -35,7 +35,7 @@ export class ServicesComponent {
     },
     {
       name: 'PLACARE MARMURA',
-      description: 'Placarea cu marmură, 130 lei/metru patrat, este utilizată frecvent în băi, bucătării, pardoseli și blaturi datorită rezistenței și aspectului său luxos.',
+      description: 'Placarea cu marmură, 130 lei/metru patrat, este utilizată frecvent în băi și bucătării, pe pereti, datorită rezistenței și aspectului său luxos.',
       price: 130,
       image: 'assets/services/placare_marmura.jpeg'
     },
@@ -59,7 +59,7 @@ export class ServicesComponent {
     },
     {
       name: 'PLACARI TREPTE GRESIE',
-      description: 'Placarea treptelor cu gresie, 100 lei/metru patrat, este o soluție care ofera durabilitate și o întreținere ușoară, fiind ideală pentru atât pentru interior, cât și pentru exterior.',
+      description: 'Placarea treptelor cu gresie, 100 lei/metru liniar, este o soluție care ofera durabilitate și o întreținere ușoară, fiind ideală pentru atât pentru interior, cât și pentru exterior.',
       price: 100,
       image: 'assets/services/placare_gresie_scari.jpeg'
     },
@@ -101,14 +101,14 @@ export class ServicesComponent {
     },
     {
       name: 'MONTARE TAPET',
-      description: 'Montarea tapetului, 50 lei/meutr patrat, oferă o gamă variată de stiluri, culori și texturi pentru a personaliza pereții și a crea atmosfera dorită în orice cameră.',
+      description: 'Montarea tapetului, 50 lei/metru patrat, oferă o gamă variată de stiluri, culori și texturi pentru a personaliza pereții și a crea atmosfera dorită în orice cameră.',
       price: 50,
       image: 'assets/services/tapet.jpeg'
     },
     {
       name: 'MONTARE SCAFE RIGIPS',
-      description: 'Montarea scafelor din rigips, 50 lei/metru patrat, este o soluție eficientă pentru a adăuga un element decorativ și elegant pe pereți și plafoane pentru spațiile interioare.',
-      price: 50,
+      description: 'Montarea scafelor din rigips, 100 lei/metru liniar, este o soluție eficientă pentru a adăuga un element decorativ și elegant pe pereți și plafoane pentru spațiile interioare.',
+      price: 100,
       image: 'assets/services/scafe.jpeg'
     },
     {
@@ -119,7 +119,7 @@ export class ServicesComponent {
     },
     {
       name: 'MONTARE PROFILE COLTURI',
-      description: 'Montarea profilelor la colțuri , 20 lei/metru patrat, este un proces esențial în finisarea pereților și tavanelor, asigurând o tranziție netedă și estetică între suprafețe.',
+      description: 'Montarea profilelor la colțuri , 20 lei/metru liniar, este un proces esențial în finisarea pereților și tavanelor, asigurând o tranziție netedă și estetică între suprafețe.',
       price: 20,
       image: 'assets/services/coltare.jpeg'
     },
