@@ -23,9 +23,12 @@ import {HttpClientModule} from "@angular/common/http";
   styleUrl: './home-page.component.css'
 })
 export class HomePageComponent implements OnInit {
-  constructor(private router: Router, private imageService: ImageService){
+  isAtBottom: boolean = false;
+
+  constructor(private router: Router, private imageService: ImageService) {
 
   }
+
   services = [
     {
       name: 'DECOPERTAT GRESIE/FAIANTA',
@@ -50,13 +53,13 @@ export class HomePageComponent implements OnInit {
   ];
 
   scrollToSection(sectionId: string) {
-    if(this.router.url !== '/'){
+    if (this.router.url !== '/') {
       this.router.navigate(['/']);
     }
     setTimeout(() => {
       const element = document.getElementById(sectionId);
       if (element) {
-        const headerOffset = sectionId != "home"? 70 : 500; // Change this value to your desired offset
+        const headerOffset = sectionId != "home" ? 70 : 500; // Change this value to your desired offset
         const elementPosition = element.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
@@ -76,7 +79,7 @@ export class HomePageComponent implements OnInit {
       const ratio075 = data.images.filter((item: any) => item.ratio === 0.75);
       const ratio2 = data.images.filter((item: any) => item.ratio === 2);
 
-      const result= [];
+      const result = [];
       const maxLength = Math.max(ratio075.length, ratio2.length);
       const pattern = [0.75, 2, 0.75, 2,
         2, 0.75, 2, 0.75];
@@ -111,15 +114,34 @@ export class HomePageComponent implements OnInit {
       }
 
 
-
-
       this.images = result;
       console.log(this.images);
       console.log(this.colNo)
     });
+    this.checkScrollPosition();
+
   }
 
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    this.checkScrollPosition();
+  }
+
+  checkScrollPosition() {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+
+    // Check if document height is at least 1080px and user has scrolled to the bottom
+    if ((scrollTop + windowHeight + 1080) >= documentHeight) {
+      this.isAtBottom = true;
+    } else {
+      this.isAtBottom = false;
+    }
+  }
+
+
   get colNo(): number[] {
-    return new Array(Math.floor((this.images.length > 12 ? 12 : this.images.length)  / 4)).fill(null).map((_, i) => i + 1);
+    return new Array(Math.floor((this.images.length > 12 ? 12 : this.images.length) / 4)).fill(null).map((_, i) => i + 1);
   }
 }

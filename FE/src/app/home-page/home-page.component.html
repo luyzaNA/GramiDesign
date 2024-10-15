@@ -20,17 +20,17 @@
                  width="354">
           </div>
         </div>
-        <div class="col-12 mt-5 pt-5">
+        <div *ngIf="!isAtBottom" class="col-12 fixed-bottom pb-5">
           <div class="d-flex justify-content-center">
-            <img class="bounce-bottom" priority ngSrc="assets/icons8-scroll.png" alt="home-pg-figure" height="50"
+            <img class="bounce-bottom shadow-lg bg-white rounded-pill p-2" priority ngSrc="assets/icons8-scroll.png" alt="home-pg-figure" height="50"
                  width="50">
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div id="about-us" class="pt-4 mt-5 pb-4 custom-pattern">
-    <div class="mb-5 mx-2 pb-5">
+  <div id="about-us" class="pt-4 mt-5 custom-pattern">
+    <div class="mx-2">
       <div class="d-flex align-items-center flex-column pb-5 pt-5">
         <h3 class="fw-bold">Despre mine si cele <span
           style="font-size: 28px; color:var(--primary-color)">3 puncte forte</span></h3>
@@ -58,7 +58,7 @@
       <div class="d-flex flex-column align-items-center">
         <div class="row m-0 p-0 px-2">
           <div class="d-flex col-8 p-0 position-relative flex-column justify-content-end align-items-start">
-            <div class="d-flex container-xl justify-content-start pb-2">
+            <div>
               <p><span>2. Experienta isi spune cuvantul. </span>
                 Detin un portofoliu diversificat și mulți clienți mulțumiți.</p>
             </div>
@@ -114,8 +114,8 @@
       </div>
     </div>
   </div>
-  <div id="services" class="mt-5 pt-5 mb-5 pb-5">
-    <div class="container-xl mt-5">
+  <div id="services">
+    <div class="container-xl">
       <div class="d-flex flex-column align-items-center justify-content-center">
         <h3 class="fw-bold pb-2">Serviciile mele</h3>
         <p class="text-center">
