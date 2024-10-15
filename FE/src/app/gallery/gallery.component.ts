@@ -66,8 +66,6 @@ export class GalleryComponent implements OnInit {
 
 
       this.images = result;
-      console.log(this.images);
-      console.log(this.colNo)
     });
   }
 
