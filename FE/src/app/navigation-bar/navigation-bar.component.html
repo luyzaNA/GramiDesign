@@ -11,24 +11,24 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-start w-75">
-            <li (click)="scrollToSection('home')" class="nav-item ms-0 ms-xl-5">
+          <ul class="navbar-nav mb-2 mx-xxl-auto mb-lg-0 d-flex justify-content-start w-75">
+            <li (click)="scrollToSection('home')" class="nav-item ms-0 ms-xxl-5">
               <a class="nav-link d-flex align-items-center">
                 <i class="material-icons me-1">home</i> <span>{{ 'Home' | translate }}</span>
               </a>
             </li>
-            <li (click)="scrollToSection('about-us')" class="nav-item mx-xl-3">
+            <li (click)="scrollToSection('about-us')" class="nav-item ms-0 mx-xxl-3">
               <a class="nav-link d-flex align-items-center">
                 <i  class="material-icons me-1">volume_up</i> <span>{{ 'About us' | translate }}</span>
               </a>
             </li>
-            <li class="nav-item mx-xl-3">
+            <li class="nav-item ms-0 mx-xxl-3">
               <a (click)="collapseNavbar()" class="nav-link d-flex align-items-center" routerLinkActive="active" routerLink="/gallery">
                 <i class="material-icons me-1">photo_library</i>
                 <span>{{ 'Gallery' | translate }}</span>
               </a>
             </li>
-            <li class="nav-item mx-xl-3">
+            <li class="nav-item ms-0 mx-xxl-3">
               <a (click)="collapseNavbar()" routerLink="/services" routerLinkActive="active" class="nav-link d-flex align-items-center">
                 <i class="material-icons me-1">architecture</i>
                 <span>{{ 'Services' | translate }}</span>
