@@ -35,18 +35,17 @@ export class NavigationBarComponent {
     if(this.router.url !== '/'){
       this.router.navigate(['/']);
     }
+    this.collapseNavbar();
     setTimeout(() => {
       const element = document.getElementById(sectionId);
       if (element) {
         const headerOffset = sectionId != "home"? 70 : 500; // Change this value to your desired offset
         const elementPosition = element.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
         window.scrollTo({
           top: offsetPosition,
           behavior: 'smooth'
         });
-        this.collapseNavbar();
       }
     }, 500)
   }
@@ -58,7 +57,7 @@ export class NavigationBarComponent {
     if (navbarToggler && navbarCollapse.classList.contains('show')) {
       setTimeout(() => {
         navbarToggler.click();
-      }, 500);
+      }, 1);
     }
   }
 }
