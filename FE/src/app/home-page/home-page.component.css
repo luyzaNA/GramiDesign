@@ -45,3 +45,18 @@ mat-progress-bar {
   background-size: 26px 26px;
   background-color: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px!important;
+  }
+  span {
+    font-size: 18px!important;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
