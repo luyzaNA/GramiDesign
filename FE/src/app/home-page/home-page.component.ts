@@ -138,6 +138,6 @@ export class HomePageComponent implements OnInit {
 
 
   get colNo(): number[] {
-    return new Array(Math.floor((this.images.length > 12 ? 12 : this.images.length) / 4)).fill(null).map((_, i) => i + 1);
+    return new Array(Math.floor((this.images.length > 7 ? 7 : this.images.length) / 4)).fill(null).map((_, i) => i + 1);
   }
 }
