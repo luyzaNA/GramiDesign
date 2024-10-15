@@ -3,7 +3,22 @@
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/parchet1.jpeg"
+      "path": "assets/images/baie.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/scariPorto.jpeg"
+    },
+    {
+      "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/pereti_noi.jpg"
+    },
+    {
+      "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/scari1.jpg"
     },
     {
       "id": 1,
@@ -19,11 +34,6 @@
       "id": 1,
       "ratio": 2,
       "path": "assets/images/model1.jpg"
-    },
-    {
-      "id": 1,
-      "ratio": 0.75,
-      "path": "assets/images/scari1.jpg"
     },
     {
       "id": 1,
@@ -87,6 +97,11 @@
     },
     {
       "id": 1,
+      "ratio": 0.75,
+      "path": "assets/images/img.png"
+    },
+    {
+      "id": 1,
       "ratio": 2,
       "path": "assets/images/sauna.jpg"
     },
@@ -112,11 +127,6 @@
     },
     {
       "id": 1,
-      "ratio": 0.75,
-      "path": "assets/images/pereti_noi.jpg"
-    },
-    {
-      "id": 1,
       "ratio": 2,
       "path": "assets/images/stalp_nou.jpeg"
     },
@@ -137,13 +147,13 @@
     },
     {
       "id": 1,
-      "ratio": 0.75,
-      "path": "assets/images/baie.jpeg"
+      "ratio": 2,
+      "path": "assets/images/exterior.jpeg"
     },
     {
       "id": 1,
-      "ratio": 2,
-      "path": "assets/images/exterior.jpeg"
+      "ratio": 0.75,
+      "path": "assets/images/granit1Bun.jpg"
     },
     {
       "id": 1,
@@ -164,21 +174,11 @@
       "id": 1,
       "ratio": 0.75,
       "path": "assets/images/exterior.jpeg"
-    },
-    {
-      "id": 1,
-      "ratio": 0.75,
-      "path": "assets/images/exterior2.jpeg"
     },
     {
       "id": 1,
       "ratio": 0.75,
       "path": "assets/images/scari.jpeg"
-    },
-    {
-      "id": 1,
-      "ratio": 0.75,
-      "path": "assets/images/scariPorto.jpeg"
     },
     {
       "id": 1,
