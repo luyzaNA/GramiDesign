@@ -94,8 +94,8 @@ export class ServicesComponent {
       image: 'assets/services/cadoro.jpeg'
     },
     {
-      name: 'APLICARE ISTINTO',
-      description: 'Aplicarea Instinto, 80 lei/metru patrat, este ideală pentru a adăuga un accent artistic și modern în spațiile interioare, cum ar fi birouri, restaurante sau locuințe.',
+      name: 'APLICARE MARMORINO',
+      description: 'Aplicarea Marmorino, 80 lei/metru patrat, este ideală pentru a adăuga un accent artistic și modern în spațiile interioare, cum ar fi birouri, restaurante sau locuințe.',
       price: 80,
       image: 'assets/services/istinto.jpeg'
     },
@@ -128,6 +128,12 @@ export class ServicesComponent {
       description: 'Vitrina din rigips este o soluție modernă și elegantă pentru expunerea obiectelor decorative sau a produselor, fiind ușor de personalizat în funcție de dimensiuni și stil.',
       price: 'negociabil',
       image: 'assets/services/vitrina.jpeg'
-    }
+    },
+    {
+      name: 'MONTARE SCAFE GRESIE/GRANIT',
+      description: 'Montarea scafelor din gresie/granit, 12 lei/metru liniar, folosită pentru a adăuga detalii decorative și funcționale în diverse spații (bucătării, băi, holuri)',
+      price: 12,
+      image: 'assets/services/scafe.jpeg'
+    },
   ]
 }
