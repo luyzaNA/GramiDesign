@@ -46,7 +46,19 @@ export class NavigationBarComponent {
           top: offsetPosition,
           behavior: 'smooth'
         });
+        this.collapseNavbar();
       }
     }, 500)
+  }
+
+  collapseNavbar(): void {
+    const navbarToggler = document.querySelector('.navbar-toggler') as HTMLElement;
+    const navbarCollapse = document.querySelector('#navbarTogglerDemo03') as HTMLElement;
+
+    if (navbarToggler && navbarCollapse.classList.contains('show')) {
+      setTimeout(() => {
+        navbarToggler.click();
+      }, 500);
+    }
   }
 }
