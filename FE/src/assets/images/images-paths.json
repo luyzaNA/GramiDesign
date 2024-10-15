@@ -8,7 +8,7 @@
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/scariPorto.jpeg"
+      "path": "assets/images/scariPorto.jpg"
     },
     {
       "id": 1,
@@ -128,22 +128,22 @@
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/stalp_nou.jpeg"
+      "path": "assets/images/stalp_nou.jpg"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/tavan_nou2.jpeg"
+      "path": "assets/images/tavan_nou2.jpg"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/tavan_nou.jpeg"
+      "path": "assets/images/tavan_nou.jpg"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/tavan_nou3.jpeg"
+      "path": "assets/images/tavan_nou3.jpg"
     },
     {
       "id": 1,
@@ -158,7 +158,7 @@
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/exterior2.jpeg"
+      "path": "assets/images/exterior2.jpg"
     },
     {
       "id": 1,
@@ -168,17 +168,17 @@
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/baie.jpeg"
+      "path": "assets/images/baie.jpg"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/exterior.jpeg"
+      "path": "assets/images/exterior.jpg"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/scari.jpeg"
+      "path": "assets/images/scari.jpg"
     },
     {
       "id": 1,
@@ -188,7 +188,7 @@
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/tavanRig.jpeg"
+      "path": "assets/images/tavanRig.jpg"
     }
   ]
 }
