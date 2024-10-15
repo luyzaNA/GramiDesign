@@ -16,28 +16,28 @@ import {RouterLink} from "@angular/router";
 export class ServicesComponent {
   services = [
     {
-      name: 'DECOPERTAT GRESIE/FAIANTA',
-      description: 'Serviciu de decopertare gresie, 30 lei/metru patrat, implica pregatirea eficienta a suprafeței pentru noi renovari.',
-      price: 30,
-      image: 'assets/services/decopertat.jpeg'
-    },
-    {
       name: 'PLACARE GRESIE/FAIANTA',
       description: 'Serviciu de placare gresie (pentru podele) și faianță (pentru pereti), 60 lei/metru pătrat, presupune instalarea placilor ceramice.',
       price: 60,
       image: 'assets/services/placare_gresie.jpeg'
     },
     {
-      name: 'MANOPERA CARAMIDA APARENTA',
-      description: 'Serviciu de montare cărămidă aparentă, 120 lei/metru pătrat, aducând un aspect rustic și autentic în interior sau exterior.',
-      price: 120,
-      image: 'assets/services/caramida_aparenta.jpeg'
+      name: 'PLACARE TREPTE GRESIE',
+      description: 'Placarea treptelor cu gresie, 100 lei/metru liniar, este o soluție care ofera durabilitate și o întreținere ușoară, fiind ideală pentru atât pentru interior, cât și pentru exterior.',
+      price: 100,
+      image: 'assets/services/placare_gresie_scari.jpeg'
     },
     {
-      name: 'PLACARE MARMURA',
-      description: 'Placarea cu marmură, 130 lei/metru patrat, este utilizată frecvent în băi și bucătării, pe pereti, datorită rezistenței și aspectului său luxos.',
-      price: 130,
-      image: 'assets/services/placare_marmura.jpeg'
+      name: 'DECOPERTAT GRESIE/FAIANTA',
+      description: 'Serviciu de decopertare gresie, 30 lei/metru patrat, implica pregatirea eficienta a suprafeței pentru noi renovari.',
+      price: 30,
+      image: 'assets/services/decopertat.jpeg'
+    },
+    {
+      name: 'MONTARE SCAFE GRESIE/GRANIT',
+      description: 'Montarea scafelor din gresie/granit, 12 lei/metru liniar, folosită pentru a adăuga detalii decorative și funcționale în diverse spații (bucătării, băi, holuri)',
+      price: 12,
+      image: 'assets/services/scafe.jpeg'
     },
     {
       name: 'PLACARE GRANIT',
@@ -45,6 +45,13 @@ export class ServicesComponent {
       price: 130,
       image: 'assets/services/granit.jpeg'
     },
+    {
+      name: 'PLACARE MARMURA',
+      description: 'Placarea cu marmură, 130 lei/metru patrat, este utilizată frecvent în băi și bucătării, pe pereti, datorită rezistenței și aspectului său luxos.',
+      price: 130,
+      image: 'assets/services/placare_marmura.jpeg'
+    },
+
     {
       name: 'PLACARE ONIX',
       description: 'Placarea cu onix, 130 lei/metru patrat, potrivită pentru interioare de lux, fiind adesea utilizată pentru pereți decorativi, blaturi și elemente de iluminat.',
@@ -58,12 +65,6 @@ export class ServicesComponent {
       image: 'assets/services/travertin.jpeg'
     },
     {
-      name: 'PLACARI TREPTE GRESIE',
-      description: 'Placarea treptelor cu gresie, 100 lei/metru liniar, este o soluție care ofera durabilitate și o întreținere ușoară, fiind ideală pentru atât pentru interior, cât și pentru exterior.',
-      price: 100,
-      image: 'assets/services/placare_gresie_scari.jpeg'
-    },
-    {
       name: 'MONTARE PARCHET LAMINAT',
       description: 'Parchetul laminat, montarea 40 lei/metru patrat,  este o opțiune accesibilă, simplă si este ideal pentru orice tip de încăpere, de la livinguri la dormitoare.',
       price: 40,
@@ -74,6 +75,12 @@ export class ServicesComponent {
       description: 'Decopertarea parchetului laminat este procesul de îndepărtare a acestuia, necesar pentru a permite renovarea sau înlocuirea cu un alt tip de pardoseală.',
       price: 'negociabil',
       image: 'assets/services/decopertat_parchet.jpeg'
+    },
+    {
+      name: 'MANOPERA CARAMIDA APARENTA',
+      description: 'Serviciu de montare cărămidă aparentă, 120 lei/metru pătrat, aducând un aspect rustic și autentic în interior sau exterior.',
+      price: 120,
+      image: 'assets/services/caramida_aparenta.jpeg'
     },
     {
       name: 'APLICARE STUCCO VENETIAN',
@@ -128,12 +135,6 @@ export class ServicesComponent {
       description: 'Vitrina din rigips este o soluție modernă și elegantă pentru expunerea obiectelor decorative sau a produselor, fiind ușor de personalizat în funcție de dimensiuni și stil.',
       price: 'negociabil',
       image: 'assets/services/vitrina.jpeg'
-    },
-    {
-      name: 'MONTARE SCAFE GRESIE/GRANIT',
-      description: 'Montarea scafelor din gresie/granit, 12 lei/metru liniar, folosită pentru a adăuga detalii decorative și funcționale în diverse spații (bucătării, băi, holuri)',
-      price: 12,
-      image: 'assets/services/scafe.jpeg'
-    },
+    }
   ]
 }
