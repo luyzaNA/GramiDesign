@@ -3,13 +3,13 @@
     <div class="ms-xl-4">
       <div class="row m-0">
         <div class="col-12 mb-2 mb-xl-0 col-lg-5 d-flex justify-content-center flex-column align-items-start">
-          <h2 class="fw-bold">Creeaza un model unic potrivit locuintei tale</h2>
+          <h2 class="fw-bold">Creează un model unic, perfect pentru locuința ta!</h2>
           <p style="font-size: 20px" class="text-muted">
-            Sunt Dan Grama, un profesionist dedicat în domeniul construcțiilor, cu peste 18 de ani de experiență. Îmi
-            place să transform visele clienților mei în realitate, punând accent pe calitate, atenție la detalii și
-            profesionalism. Fiecare proiect pe care îl preiau este o oportunitate de a demonstra măiestria și
-            angajamentul meu față de excelență.</p>
-          <button (click)="scrollToSection('contact')" class="btn btn-primary">Contacteaza-ma</button>
+            Sunt Dan Grama, expert în construcții cu peste <b>18 ani de experiență</b>. Împreună putem transforma viziunea ta
+            în realitate, cu un focus pe <b>calitate</b>, <b>atenție la detalii</b> și <b>profesionalism</b>. Fiecare
+            proiect este o
+            oportunitate de a aduce excelența în casa ta. <b>Hai să creăm împreună un spațiu unic!</b></p>
+          <button (click)="scrollToSection('contact')" class="btn btn-primary">Contactează-mă acum!</button>
         </div>
         <div class="col-12 col-lg-6 d-flex justify-content-center">
           <div class="d-flex justify-content-center position-relative">
@@ -22,7 +22,8 @@
         </div>
         <div *ngIf="!isAtBottom" class="col-12 fixed-bottom pb-5">
           <div class="d-flex justify-content-center">
-            <img class="bounce-bottom shadow-lg bg-white rounded-pill p-2" priority ngSrc="assets/icons8-scroll.png" alt="home-pg-figure" height="50"
+            <img class="bounce-bottom shadow-lg bg-white rounded-pill p-2" priority ngSrc="assets/icons8-scroll.png"
+                 alt="home-pg-figure" height="50"
                  width="50">
           </div>
         </div>
