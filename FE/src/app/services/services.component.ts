@@ -37,7 +37,7 @@ export class ServicesComponent {
       name: 'MONTARE PLINTA GRESIE/GRANIT',
       description: 'Montarea plitelor pentru gresie/granit, 12 lei/metru liniar, contribuie la o tranziție elegantă între podea și perete, completând designul interior.',
       price: 12,
-      image: 'assets/services/scafe_gresie.JPG'
+      image: 'assets/services/scafe.JPG'
     },
     {
       name: 'PLACARE GRANIT',
@@ -122,7 +122,7 @@ export class ServicesComponent {
       name: 'EXECUTIE TAVAN RIGIPS',
       description: 'Executarea unui tavan din rigips, 45 lei/metru patrat, este o tehnica eficienta pentru a crea suprafete netede, pentru a imbunatati izolatia fonica si termica.',
       price: 45,
-      image: 'assets/services/tavan.jpeg'
+      image: 'assets/services/img.png'
     },
     {
       name: 'MONTARE PROFILE COLTURI',
