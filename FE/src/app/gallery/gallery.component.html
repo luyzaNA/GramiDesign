@@ -9,14 +9,14 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" >
-      <img src="../assets/pereti_noi.jpg " class="d-block w-100" alt="...">
+      <img src="../assets/pereti_noi.jpg " class="d-block w-100" alt="perete finisaj modern ">
     </div>
     <div class="carousel-item">
-      <img src="../assets/tavan1.jpg" class="d-block w-100" alt="...">
+      <img src="../assets/tavan1.jpg" class="d-block w-100" alt="tavan interior granit marmura">
     </div>
 
     <div class="carousel-item">
-      <img src="../assets/tavan_nou2.jpg" class="d-block w-100" alt="...">
+      <img src="../assets/tavan_nou2.jpg" class="d-block w-100" alt="renovare gresie">
     </div>
 
   </div>
@@ -35,7 +35,7 @@
   <div class="row gx-3 mt-5">
     <div class="col-xl-3 col-12 col-sm-6 col-md-4" [ngClass]="{'mt-sm-4': i%2 != 0}" *ngFor="let i of [0,1,2,3]">
       <div class="mb-3 elm-track-viz elm-track-puff-in-center shadow-sm rounded-2" *ngFor="let j; let idx=index of colNo">
-        <img [src]="images[i+idx*4].path" class="img-fluid w-100 rounded-2" alt="image"/>
+        <img [src]="images[i+idx*4].path" class="img-fluid w-100 rounded-2" [alt]="images[i+idx*4].alt"/>
       </div>
     </div>
   </div>

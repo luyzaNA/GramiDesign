@@ -13,13 +13,13 @@
         </div>
         <div class="col-12 col-lg-6 d-flex justify-content-center">
           <div class="d-flex justify-content-center position-relative">
-            <img ngSrc="assets/home-pg-figure.png" priority class="mt-5 img-fluid" alt="home-pg-figure" height="440" width="453">
-            <img class="position-absolute rounded-2" priority ngSrc="assets/img/profil_blure.jpg" alt="home-pg-figure" height="472" width="354">
+            <img ngSrc="assets/home-pg-figure.png" priority class="mt-5 img-fluid" alt="reparatii pardoseala" height="440" width="453">
+            <img class="position-absolute rounded-2" priority ngSrc="assets/img/profil_blure.jpg" alt="stucco venetian marcopolo" height="472" width="354">
           </div>
         </div>
         <div *ngIf="!isAtBottom" class="col-12 fixed-bottom pb-5">
           <div class="d-flex justify-content-center">
-            <img class="bounce-bottom shadow-lg bg-white rounded-pill p-2" priority ngSrc="assets/icons8-scroll.png" alt="home-pg-figure" height="50" width="50">
+            <img class="bounce-bottom shadow-lg bg-white rounded-pill p-2" priority ngSrc="assets/icons8-scroll.png" alt="cadoro travertin" height="50" width="50">
           </div>
         </div>
       </div>
@@ -32,10 +32,10 @@
         <p><span>1. Angajament si Integritate</span> Respect termenele si bugetele stabilite, asigurandu-ma ca fiecare proiect este finalizat la standarde inalte.</p>
         <div class="mt-4 d-flex justify-content-center">
           <div class="rounded-2 col-3">
-            <img class="element-to-track elm-track-viz rounded-2 img-fluid" ngSrc="assets/img/1st_box_edited.png" alt="home-pg-figure" priority height="640" width="374">
+            <img class="element-to-track elm-track-viz rounded-2 img-fluid" ngSrc="assets/img/1st_box_edited.png" alt="decorare montaj" priority height="640" width="374">
           </div>
           <div class="d-flex position-relative col-8 element-to-track-in elm-track-viz align-items-end justify-content-end">
-            <img priority class="ms-5 img-fluid rounded-2 shadow" ngSrc="assets/poza1prog.jpg" alt="about-us-figure" height="480" width="960">
+            <img priority class="ms-5 img-fluid rounded-2 shadow" ngSrc="assets/poza1prog.jpg" alt="onix marmura" height="480" width="960">
             <p class="position-absolute text-white mb-3 me-2" style="font-size: 18px">Progres 10%</p>
             <mat-progress-bar class="position-absolute w-25 mb-2 me-2" mode="determinate" value="10"></mat-progress-bar>
           </div>
@@ -56,7 +56,7 @@
             <mat-progress-bar class="position-absolute w-25 mb-2 ms-2 elm-track-viz element-to-track" mode="determinate" value="50"></mat-progress-bar>
           </div>
           <div class="col-4 element-to-track-in d-flex elm-track-viz align-items-end m-0 p-0">
-            <img class="rounded-2 img-fluid" ngSrc="assets/img/2nd_edited.png" alt="about-us-figure" height="640" width="360">
+            <img class="rounded-2 img-fluid" ngSrc="assets/img/2nd_edited.png" alt="parchet tapet" height="640" width="360">
           </div>
         </div>
       </div>
@@ -66,19 +66,19 @@
     <div class="container-xl mt-3 pb-5">
       <div class="position-relative justify-content-center d-flex">
         <div class="position-absolute">
-          <img class="w-100 img-fluid rounded-2" ngSrc="assets/about-us-3.png" priority height="774" width="833" alt="">
+          <img class="w-100 img-fluid rounded-2" ngSrc="assets/about-us-3.png" priority height="774" width="833" alt="scafe profile">
         </div>
         <div>
           <div class="row m-0 p-0">
             <div class="col-3 about-us-3 element-to-track-in elm-track-viz">
-              <img class="img-fluid rounded-2" ngSrc="assets/img/3rd_edited.png" alt="about-us-figure" height="640" width="215">
+              <img class="img-fluid rounded-2" ngSrc="assets/img/3rd_edited.png" alt="rigips gresie" height="640" width="215">
             </div>
             <div class="col-9 d-flex elm-track-viz element-to-track flex-column justify-content-end align-items-start">
               <div class="d-flex align-items-start">
                 <p><span>2. Experienta isi spune cuvantul. </span> Detin un portofoliu diversificat si multi clienti multumiti.</p>
               </div>
               <div class="position-relative d-flex flex-column justify-content-end align-items-end">
-                <img class="img-fluid shadow rounded-2" ngSrc="assets/poza3prog.jpg" alt="about-us-figure" width="840" height="525">
+                <img class="img-fluid shadow rounded-2" ngSrc="assets/poza3prog.jpg" alt="vitrina caramida" width="840" height="525">
                 <p class="position-absolute d-flex mb-3 me-2" style="font-size: 18px">Finalizat <mat-icon class="primary-color ms-2">flag</mat-icon></p>
                 <mat-progress-bar class="position-absolute w-50 mb-2 me-2" mode="determinate" value="100"></mat-progress-bar>
               </div>
@@ -102,7 +102,7 @@
         <div class="row">
           <div *ngFor="let service; of services" class="col-12 col-xl-4 elm-track-viz elm-track-puff-in-center d-flex justify-content-center">
             <div class="d-flex flex-column justify-content-center align-items-center">
-              <img ngSrc="{{service.image}}" class="rounded-2" width="262" height="299" alt="">
+              <img ngSrc="{{service.image}}" class="rounded-2" width="262" height="299" alt="marmorino cadoro">
               <h4 class="fw-medium mt-3">{{ service.name }}</h4>
               <p class="w-75 text-muted text-center">{{ service.description }}</p>
               <h4 class="fw-medium text-center primary-color mt-3">Pret: {{ service.price }} RON</h4>
@@ -126,7 +126,7 @@
         <div class="row gx-3 mt-3">
           <div class="col-xl-3 col-12 col-sm-6 col-md-4" [ngClass]="{'mt-sm-4': i%2 != 0}" *ngFor="let i of [0,1,2,3]">
             <div class="mb-3 elm-track-viz elm-track-puff-in-center shadow-sm rounded-2" *ngFor="let j; let idx=index of colNo">
-              <img [src]="images[i+idx*4].path" class="img-fluid w-100 rounded-2" alt="image"/>
+              <img [src]="images[i+idx*4].path" class="img-fluid w-100 rounded-2" alt="renovare casa noua"/>
             </div>
           </div>
         </div>

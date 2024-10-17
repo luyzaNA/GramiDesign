@@ -3,182 +3,217 @@
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/perete_nou2.jpg"
+      "path": "assets/images/perete_nou2.jpg",
+      "alt": "placare gresie"
     },
 
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/scari1.jpg"
+      "path": "assets/images/scari1.jpg",
+      "alt": "placare faianta"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/gard_nou.jpg"
+      "path": "assets/images/gard_nou.jpg",
+      "alt": "placare trepte gresie"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/stalp_nou.jpg"
+      "path": "assets/images/stalp_nou.jpg",
+      "alt": "decopertat gresie"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/pereti_noi.jpg"
+      "path": "assets/images/pereti_noi.jpg",
+      "alt": "decopertat faianta"
     },
 
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/tavan1.jpg"
+      "path": "assets/images/tavan1.jpg",
+      "alt": "plinta gresie"
     },
 
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/model1.jpg"
+      "path": "assets/images/model1.jpg",
+      "alt": "plinta granit"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/floare1.jpg"
+      "path": "assets/images/floare1.jpg",
+      "alt": "placare granit"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/model5.jpg"
+      "path": "assets/images/model5.jpg",
+      "alt": "placare marmura"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/model4.jpg"
+      "path": "assets/images/model4.jpg",
+      "alt": "placare onix"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/poza11.jpg"
+      "path": "assets/images/poza11.jpg",
+      "alt": "placare travertin"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/model6.jpg"
+      "path": "assets/images/model6.jpg",
+      "alt": "parchet laminat"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/model7.jpg"
+      "path": "assets/images/model7.jpg",
+      "alt": "decopertat parchet laminat"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/model8.jpg"
+      "path": "assets/images/model8.jpg",
+      "alt": "caramida aparenta"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/model9.jpg"
+      "path": "assets/images/model9.jpg",
+      "alt": "stucco venetian"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/model12.jpg"
+      "path": "assets/images/model12.jpg",
+      "alt": "marcopolo"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/model11.jpg"
+      "path": "assets/images/model11.jpg",
+      "alt": ""
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/model13.jpg"
+      "path": "assets/images/model13.jpg",
+      "alt": "cadoro"
     },
 
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/img.png"
+      "path": "assets/images/img.png",
+      "alt": "marmorino"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/sauna.jpg"
+      "path": "assets/images/sauna.jpg",
+      "alt": "tapet"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/pzoa13.jpg"
+      "path": "assets/images/pzoa13.jpg",
+      "alt": "scafe rigips"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/perete_nou.jpg"
+      "path": "assets/images/perete_nou.jpg",
+      "alt": "tavan rigips"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/poza13.jpg"
+      "path": "assets/images/poza13.jpg",
+      "alt": "profile colturi"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/perete_nou6.jpg"
+      "path": "assets/images/perete_nou6.jpg",
+      "alt": "vitrina rigips"
     },
 
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/tavan_nou2.jpg"
+      "path": "assets/images/tavan_nou2.jpg",
+      "alt": "gresie"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/tavan_nou.jpg"
+      "path": "assets/images/tavan_nou.jpg",
+      "alt": "granit"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/tavan_nou3.jpg"
+      "path": "assets/images/tavan_nou3.jpg",
+      "alt": "parchet"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/granit1Bun.jpg"
+      "path": "assets/images/granit1Bun.jpg",
+      "alt": "finisari"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/exterior2.jpg"
+      "path": "assets/images/exterior2.jpg",
+      "alt": "renovare"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/scariPorto.jpg"
+      "path": "assets/images/scariPorto.jpg",
+      "alt": "scari"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/baie.jpg"
+      "path": "assets/images/baie.jpg",
+      "alt": "bucatarie"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/exterior.jpg"
+      "path": "assets/images/exterior.jpg",
+      "alt": "baie"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/scari.jpg"
+      "path": "assets/images/scari.jpg",
+      "alt": "dormitor"
     },
     {
       "id": 1,
       "ratio": 2,
-      "path": "assets/images/tati.jpg"
+      "path": "assets/images/tati.jpg",
+      "alt": "pereti"
     },
     {
       "id": 1,
       "ratio": 0.75,
-      "path": "assets/images/tavanRig.jpg"
+      "path": "assets/images/tavanRig.jpg",
+      "alt": "living hol sufragerie"
     }
   ]
 }

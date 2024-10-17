@@ -34,8 +34,8 @@ export class ServicesComponent {
       image: 'assets/services/decopertat.jpeg'
     },
     {
-      name: 'MONTARE SCAFE GRESIE/GRANIT',
-      description: 'Montarea scafelor din gresie/granit, 12 lei/metru liniar, folosita pentru a adauga detalii decorative si functionale in diverse spatii (bucatarii, bai, holuri)',
+      name: 'MONTARE PLINTA GRESIE/GRANIT',
+      description: 'Montarea plitelor pentru gresie/granit, 12 lei/metru liniar, contribuie la o tranziție elegantă între podea și perete, completând designul interior.',
       price: 12,
       image: 'assets/services/scafe_gresie.JPG'
     },
