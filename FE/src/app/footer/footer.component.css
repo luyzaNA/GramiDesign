@@ -5,3 +5,9 @@
 li {
   color: var(--secondary-color);
 }
+
+@media (min-width: 768px) {
+  #footer-section-1 {
+    border: 0!important;
+  }
+}

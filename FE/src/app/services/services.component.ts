@@ -35,7 +35,7 @@ export class ServicesComponent {
     },
     {
       name: 'MONTARE PLINTA GRESIE/GRANIT',
-      description: 'Montarea plitelor pentru gresie/granit, 12 lei/metru liniar, contribuie la o tranziție elegantă între podea și perete, completând designul interior.',
+      description: 'Montarea plintelor pentru gresie/granit, 12 lei/metru liniar, contribuie la o tranziție elegantă între podea și perete, completând designul interior.',
       price: 12,
       image: 'assets/services/scafe.JPG'
     },
